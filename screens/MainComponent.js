@@ -3,12 +3,8 @@ import Constants from 'expo-constants';
 import CampsiteInfoScreen from './CampsiteInfoScreen';
 import DirectoryScreen from './DirectoryScreen';
 import { createStackNavigator } from '@react-navigation/stack';
-import {
-    createDrawerNavigator,
-    DrawerContentScrollView,
-    DrawerItemList
-} from '@react-navigation/drawer';
-import HomeScreen from './HomeScreen';
+import { createDrawerNavigator, DrawerContentScrollView, DrawerItemList} from '@react-navigation/drawer';
+import HomeScreen from './Homescreen';
 import AboutScreen from './AboutScreen';
 import ContactScreen from './ContactScreen';
 import { Icon } from 'react-native-elements';
